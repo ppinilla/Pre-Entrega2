@@ -7,47 +7,45 @@ html{
     scroll-behavior: smooth;
 }
 #inicio{
-    height: 20px;
+    height: 40px;
     width: 100%;
     background-color: #A92C7E;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     text-transform: capitalize;
-    padding: 20px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #inicio p{
     float: left;
+    font-size: 15px;
 }
-.redes{
+.redes a{
     float: right;
-    color: black;
+    color: #000000;
     letter-spacing: 20px;
+    font-size: 20px;
 }
 header{
-    height: 106px;
+    height: 120px;
     width: 100%;
-    background-color: #CB80B1;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: capitalize;
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
     padding: 20px;
 }
-.logo{
+.logo img{
     float: left;
-    height: 90px;
-    width: 105px;
+    height: 75px;
+    width: 87px;
 }
 .barra ul{
     float: right;
 }
 .barra ul li{
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
     padding: 16px;
     text-decoration: none;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
 }
 .barra a{
     text-decoration: none;
