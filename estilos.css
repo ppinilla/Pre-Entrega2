@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#inicio{
+    height: 20px;
+    width: 100%;
+    background-color: #A92C7E;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    padding: 20px;
+}
+#inicio p{
+    float: left;
+}
+.redes{
+    float: right;
+    color: black;
+    letter-spacing: 20px;
+}
+header{
+    height: 106px;
+    width: 100%;
+    background-color: #CB80B1;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    height: 90px;
+    width: 105px;
+}
+.barra ul{
+    float: right;
+}
+.barra ul li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.barra a{
+    text-decoration: none;
+    color: black;
+}
+.barra a:hover{
+    color: #A92C7E;
+    text-decoration: underline;
+}
