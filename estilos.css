@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+/* font-family: 'Alkalami', serif;
+font-family: 'Chicle', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Gantari', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Kenia', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Zen Dots', cursive; */
+:root{
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Raleway', sans-serif;
+    --color1: #A92C7E;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,17 +37,18 @@ html{
 #inicio{
     height: 40px;
     width: 100%;
-    background-color: #A92C7E;
+    background-color: var(--color1);
     text-transform: capitalize;
     padding: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #inicio p{
-    float: left;
     font-size: 15px;
 }
 .redes a{
-    float: right;
     color: #000000;
     letter-spacing: 20px;
     font-size: 20px;
@@ -30,18 +58,17 @@ header{
     height: 120px;
     width: 100%;
     background-color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font1);
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo img{
-    float: left;
     height: 75px;
     width: 87px;
-}
-.barra ul{
-    float: right;
 }
 .barra ul li{
     list-style: none;
@@ -54,11 +81,40 @@ header{
     color: black;
 }
 .barra a:hover{
-    color: #A92C7E;
-    text-decoration: underline;
+    color: var(--color1);
 }
 /* main del index.html */
-#tratamientos{
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+main h2{
+    color: var(--color1);
+    font-size: 100px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 20px;
+}
+main p{
+    color: #000000;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+main a{
+    background-color: var(--color1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    position: relative;
+}
+/* clase trats del index.html */
+.trats{
     height: 100vh;
     width: 100%;
     background-color: #333;
@@ -68,21 +124,33 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-#tratamientos h2{
-    color: mediumvioletred;
+.trats h2{
+    color: var(--color1);
     font-size: 80px;
     position: relative;
     text-transform: uppercase;
     text-align: center;
 }
-#tratamientos h3{
+.trats h3{
     color: black;
     font-size: 70px;
-    position: relative;
     text-transform: uppercase;
 }
-.tratamiento{
+/* subclases del trats */
+.trat1{
+    align-items: flex-start;
+}
+.trat2{
+    align-items: center;
+}
+.trat3{
+    align-items: flex-end;
+}
+/* clase trat del index.html */
+.trat{
     height: 100vh;
     width: 100%;
     background-color: #333;
@@ -96,33 +164,18 @@ header{
 }
 .facial:before{
     content: "";
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: white;
     position: absolute;
     opacity: 0.6;
-}
-main h2{
-    color: mediumvioletred;
-    font-size: 100px;
-    position: relative;
-    text-transform: uppercase;
-}
-main a{
-    background-color: mediumvioletred;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 30px;
-    position: relative;
 }
 .corporal{
     background-image: url(img/Corporal.jpg);
 }
 .corporal:before{
     content: "";
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: white;
     position: absolute;
@@ -133,7 +186,7 @@ main a{
 }
 .capilar::before{
     content: "";
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: white;
     position: absolute;
