@@ -88,13 +88,13 @@ header{
     color: var(--color1);
 }
 /* main del index.html */
-main{
+.mainindex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
-main h2{
+.mainindex h2{
     color: var(--color1);
     font-family: var(--font1);
     font-size: 100px;
@@ -102,7 +102,7 @@ main h2{
     text-transform: uppercase;
     padding: 20px;
 }
-main h3{
+.mainindex h3{
     color: black;
     font-family: var(--font2);
     font-size: 80px;
@@ -111,7 +111,7 @@ main h3{
     padding: 20px;
     border: 5px solid var(--color1);
 }
-main p{
+.mainindex p{
     color: #000000;
     position: relative;
     font-size: 30px;
@@ -119,7 +119,7 @@ main p{
     padding: 20px;
     background-color: #a92c7d60;
 }
-main a{
+.mainindex a{
     background-color: var(--color1);
     color: white;
     text-decoration: none;
@@ -200,7 +200,7 @@ main a{
     order: -1;
 }
 /* section del index.html */
-section{
+.sectionindex{
     height: 600px;
     width: 100%;
     display: flex;
@@ -209,19 +209,19 @@ section{
     flex-wrap: wrap;
     background-color: var(--color2);
 }
-section h2{
+.sectionindex h2{
     width: 100%;
     font-size: 60px;
 }
-section form{
+.sectionindex form{
     text-align: center;
     font-size: 20px;
     width: 100%;
 }
-section form label{
+.sectionindex form label{
     width: 100%;
 }
-section form input{
+.sectionindex form input{
     width: auto;
 }
 /* Footer */
@@ -278,4 +278,77 @@ footer a:hover{
     text-align: center;
     line-height: 40px;
     box-shadow: 0 0 5px black;
+}
+/* main de tratamientos.html */
+.maintratamientos{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: var(--font1);
+}
+.maintratamientos h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.maintrat{
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--color1);
+}
+.faciales{
+    background-image: url(img/Facial.jpg);
+}
+.corporales{
+    background-image: url(img/Corporal.jpg);
+}
+.capilares{
+    background-image: url(img/Capilar.jpg);
+}
+.sectiontrat{
+    width: 100%;
+    height: 300px;
+    background-color: var(--color2);
+    color: black;
+    font-family: var(--font1);
+    display: flex;
+}
+.sectiontrat-img{
+    height: 300px;
+    width: 50%;
+    background-image: url(img/tratamiento1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sectiontrat aside{
+    width: 50%;
+    height: 300px;
+    background-color: var(--color1);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectiontrat aside h3{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sectiontrat aside p{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+aside a{
+    background-color: #fff;
+    color: var(--color1);
+    padding: 10px 20px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
 }
