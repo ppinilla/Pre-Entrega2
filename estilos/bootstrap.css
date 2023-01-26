@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box; 
+}
+header{
+    background-color: #A92C7E;
+}
+nav{
+    height: 120px;
+}
+nav a img{
+    width: 87px;
+} 
+section{
+    background-color: floralwhite;
+}
+section img{
+    height: 400px;
+}
