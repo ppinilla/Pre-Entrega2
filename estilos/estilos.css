@@ -207,7 +207,7 @@ header{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    background-color: var(--color2);
+    background-color: floralwhite;
 }
 .sectionindex h2{
     width: 100%;
@@ -229,7 +229,7 @@ footer{
     display: flex;
     background-color: var(--color1);
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     color: black;
     font-family: var(--font1);
@@ -245,18 +245,17 @@ footer a{
 footer a:hover{
     color: var(--color2);
 }
-.contacto{
+/* .contacto{
     width: 30%;
-    font-size: 20px;
-}
+} */
 .contacto iframe{
     height: 250px;
     width: 350px;
 }
-#home{
-    width: 15%;
-}
-#facial{
+/* #home{
+    width: 30%;
+} */
+/* #facial{
     width: 15%;
 }
 #corporal{
@@ -264,7 +263,7 @@ footer a:hover{
 }
 #capilar{
     width: 15%;
-}
+} */
 .subir{
     height: 40px;
     width: 40px;
