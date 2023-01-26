@@ -133,7 +133,7 @@ header{
     height: 100vh;
     width: 100%;
     background-color: #333;
-    background-image: url(img/bendita\ 1.jpg);
+    background-image: url(../img/bendita\ 1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ header{
     position: relative;
 }
 .facial {
-    background-image: url(img/Facial.jpg);
+    background-image: url(../img/Facial.jpg);
     background-position:right;
 }
 .facial:before{
@@ -176,7 +176,7 @@ header{
     order: -1;
 }
 .corporal{
-    background-image: url(img/Corporal.jpg);
+    background-image: url(../img/Corporal.jpg);
 }
 .corporal:before{
     content: "";
@@ -187,7 +187,7 @@ header{
     opacity: 0.6;
 }
 .capilar{
-    background-image: url(img/Capilar.jpg);
+    background-image: url(../img/Capilar.jpg);
 }
 .capilar::before{
     content: "";
@@ -302,13 +302,13 @@ footer a:hover{
     color: var(--color1);
 }
 .faciales{
-    background-image: url(img/Facial.jpg);
+    background-image: url(../img/Facial.jpg);
 }
 .corporales{
-    background-image: url(img/Corporal.jpg);
+    background-image: url(../img/Corporal.jpg);
 }
 .capilares{
-    background-image: url(img/Capilar.jpg);
+    background-image: url(../img/Capilar.jpg);
 }
 .sectiontrat{
     width: 100%;
@@ -321,7 +321,7 @@ footer a:hover{
 .sectiontrat-img{
     height: 300px;
     width: 50%;
-    background-image: url(img/tratamiento1.jpg);
+    background-image: url(../img/tratamiento1.jpg);
     background-size: cover;
     background-position: center;
 }
