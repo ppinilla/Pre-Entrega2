@@ -2,17 +2,85 @@
     box-sizing: border-box; 
 }
 header{
+    height: 40px;
     background-color: #A92C7E;
+    padding: 10px;
 }
-nav{
-    height: 120px;
+header p{
+    font-size: 15px;
+    color: black;
 }
-nav a img{
+header i{
+    color: black;
+}
+.navbar{
+    font-size: 20px;
+    background-color: white;
+}
+.navbar a{
+    color: black;
+}
+.navbar a img{
     width: 87px;
 } 
-section{
-    background-color: floralwhite;
+.navbar-toggler{
+    background-color: #A92C7E;
+    
 }
-section img{
-    height: 400px;
+.navbar-toggler i{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-item a:hover{
+    color: #A92C7E;
+} 
+.jumbotron{
+    background-color: #A92C7E ;
+    color: black;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron p{
+    color: black !important;
+}
+
+.album img{
+    background-color: #ddd;
+}
+.btn{
+    background-color: #A92C7E;
+    padding: 10px 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    background-color: #A92C7E;
+    color: black;
+}
+.f-contacto{
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.f-contacto h3{
+    font-size: 30px;
+}
+.f-contacto a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.f-contacto p{
+    font-size: 20px;
+}
+.redes{
+    color: #000000;
+    letter-spacing: 10px;
+    font-size: 20px;
 }
