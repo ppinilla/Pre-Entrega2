@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box; 
 }
+/* Header */
 header{
     height: 40px;
     background-color: #A92C7E;
@@ -13,6 +14,7 @@ header p{
 header i{
     color: black;
 }
+/* Barra de navegacion */
 .navbar{
     font-size: 20px;
     background-color: white;
@@ -37,28 +39,7 @@ header i{
 .nav-item a:hover{
     color: #A92C7E;
 } 
-.jumbotron{
-    background-color: #A92C7E ;
-    color: black;
-    text-align: center;
-    border-radius: 0;
-    margin-bottom: 0;
-}
-.jumbotron p{
-    color: black !important;
-}
-
-.album img{
-    background-color: #ddd;
-}
-.btn{
-    background-color: #A92C7E;
-    padding: 10px 20px;
-}
-.btn a{
-    text-decoration: none;
-    color: #fff;
-}
+/* Footer */
 footer{
     background-color: #A92C7E;
     color: black;
@@ -83,4 +64,41 @@ footer{
     color: #000000;
     letter-spacing: 10px;
     font-size: 20px;
+}
+/* Pagina de Resultados */
+.r-section{
+    background-color: #A92C7E ;
+    color: black;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.r-section p{
+    color: black !important;
+}
+
+.album img{
+    background-color: #ddd;
+}
+.btn{
+    background-color: #A92C7E;
+    padding: 10px 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Pagina de Contacto */
+.c-section1{
+    background-color: #A92C7E ;
+    color: black;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.c-section1 p{
+    color: black !important;
+}
+.c-section2{
+    padding: 20px;
 }
