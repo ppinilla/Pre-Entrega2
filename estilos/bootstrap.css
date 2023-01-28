@@ -5,14 +5,15 @@
 header{
     height: 40px;
     background-color: #A92C7E;
-    padding: 10px;
 }
 header p{
     font-size: 15px;
     color: black;
+    padding: 10px;
 }
 header i{
     color: black;
+    padding: 10px 0px;
 }
 /* Barra de navegacion */
 .navbar{
@@ -82,7 +83,12 @@ footer{
 }
 .btn{
     background-color: #A92C7E;
+    border: 2px solid #fff;
     padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #6d094a;
+    border: 2px solid #fff;
 }
 .btn a{
     text-decoration: none;
@@ -98,7 +104,27 @@ footer{
 }
 .c-section1 p{
     color: black !important;
+    font-size: 20px;
 }
 .c-section2{
     padding: 20px;
 }
+.c-section2 label{
+    color: #000000;
+    font-size: 20px;
+}
+.c-section2 input{
+    font-size: 20px;
+}
+.c-section2 textarea{
+    font-size: 20px;
+}
+.c-section2 a{
+    text-decoration: none;
+    color: #6d094a;
+    font-size: 20px;
+}
+.c-section2 i{
+    padding: 10px 10px;
+}
+
