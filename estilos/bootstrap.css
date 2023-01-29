@@ -81,16 +81,16 @@ footer{
 .album img{
     background-color: #ddd;
 }
-.btn{
+.view{
     background-color: #A92C7E;
     border: 2px solid #fff;
     padding: 10px 20px;
 }
-.btn:hover{
+.view:hover{
     background-color: #6d094a;
     border: 2px solid #fff;
 }
-.btn a{
+.view a{
     text-decoration: none;
     color: #fff;
 }
@@ -126,5 +126,22 @@ footer{
 }
 .c-section2 i{
     padding: 10px 10px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+.subir a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
 }
 
