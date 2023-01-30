@@ -81,6 +81,9 @@ footer{
 .album img{
     background-color: #ddd;
 }
+.album img:hover{
+    transform: scale(1.05);
+}
 .view{
     background-color: #A92C7E;
     border: 2px solid #fff;
