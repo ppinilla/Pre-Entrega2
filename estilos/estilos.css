@@ -273,7 +273,7 @@ footer a:hover{
 } */
 .contacto iframe{
     height: 250px;
-    width: 600px;
+    width: 100%;
 }
 /* #home{
     width: 30%;
